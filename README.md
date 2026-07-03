@@ -1,0 +1,1 @@
+Ćwiczenie Skills and Agents Exercise
