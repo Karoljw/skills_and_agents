@@ -25,11 +25,17 @@
 - Nazwy opisowe, unikaj skrótów niejasnych dla innych deweloperów
 
 ## 4. Testy
+Zwróć się do **"Mailer Complete Testing Skill"** (`.copilot/skills/mailer-testing/`) dla szczegółowych wzorców i szablonów testów.
+
+Minimum requirements:
 - Framework: `pytest` + `pytest-cov`
-- Minimum 80% code coverage
-- Każda nowa funkcja: co najmniej 2 testy (happy path + edge case)
-- Mockuj zewnętrzne usługi (serwer SMTP, baza danych) – żadnych realnych wysyłek emaili w testach
+- Każda funkcja: min. 2 testy (happy path + edge case)
+- Edge cases + error handling
+- Mocking external services (SMTP, baza danych) – żadnych realnych wysyłek emaili w testach
+- Coverage: min. 80%
 - Testy trzymane w `tests/`, odzwierciedlają strukturę `mailer/`
+
+Polecenie: "Use mailer-complete-testing skill"
 
 ## 5. Bezpieczeństwo
 - Brak danych wrażliwych (hasła, klucze API, credentials SMTP) zapisanych w kodzie
