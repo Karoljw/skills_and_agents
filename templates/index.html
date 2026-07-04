@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Mailer - Subskrybenci{% endblock %}
+
+{% block content %}
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+
+    <form action="{{ url_for('subscribe') }}" method="post">
+        <input type="email" name="email" placeholder="twoj@email.com" required>
+        <button type="submit">Zapisz się</button>
+    </form>
+
+    <h2>Lista subskrybentów</h2>
+    <ul>
+        {% for subscriber in subscribers %}
+            <li>{{ subscriber }}</li>
+        {% else %}
+            <li>Brak subskrybentów.</li>
+        {% endfor %}
+    </ul>
+{% endblock %}
