@@ -6,6 +6,7 @@
 ## Skills (Umiejętności)
 1. **email-validation** – Walidacja adresów email
 2. **mailer-complete-testing** – Kompletne testowanie wszystkich komponentów mailera
+3. **email-templates** – Tworzenie i testowanie szablonów emaili (HTML/plain text, dziedziczenie, podstawianie zmiennych)
 
 Użycie:
 ```

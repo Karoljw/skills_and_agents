@@ -17,6 +17,8 @@
   - `static/` – pliki CSS/JavaScript
   - `tests/` – testy jednostkowe (pytest)
 
+Przy pracy z szablonami emaili (`templates/emails/`) zwróć się do **"Email Templates Skill"** (`.copilot/skills/email-templates/`) – dziedziczenie szablonów, podstawianie zmiennych, wersje HTML/plain text.
+
 ## 3. Konwencje nazewnicze
 - Zmienne i funkcje: `snake_case`
 - Klasy: `PascalCase`
